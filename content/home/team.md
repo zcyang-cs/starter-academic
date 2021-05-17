@@ -1,19 +1,32 @@
 ---
 widget: people
 headless: true  # This file represents a page section.
-
+weight: 100
 # ... Put Your Section Options Here (title etc.) ...
+title: People
+
+
 
 content:
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+  # 旧用户组
+  # user_groups:
+  #   - Principal Investigators
+  #   - Researchers
+  #   - Grad Students
+  #   - Administration
+  #   - Visitors
+  #   - Alumni
+
+  # 新用户组
   user_groups:
-    - Principal Investigators
-    - Researchers
-    - Grad Students
-    - Administration
-    - Visitors
-    - Alumni
+  - Team Leader
+  - PhD Students
+  - MS Students
+  - Visitors
+  - Alumni
+
 design:
   # Show user's social networking links? (true/false)
   show_social: false
