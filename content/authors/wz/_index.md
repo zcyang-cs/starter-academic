@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Xiaoliang Fan
+title: Wang Zheng
 
 # Is this the primary user of the site?
 superuser: true
