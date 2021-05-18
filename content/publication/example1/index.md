@@ -4,10 +4,12 @@ title: "An example conference paper"
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
 # and it will be replaced with their full name and linked to their profile.
+# 作者
 authors:
 - admin
-- Robert Ford
+- wang zheng
 
+# 作者信息
 # Author notes (optional)
 author_notes:
 - "Equal contribution"
@@ -26,6 +28,7 @@ publishDate: "2017-01-01T00:00:00Z"
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
+# pub信息，发表在什么会议上
 publication: In *Wowchemy Conference*
 publication_short: In *ICW*
 
@@ -34,22 +37,26 @@ abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere 
 # Summary. An optional shortened abstract.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
+# 用于过滤的tags
 tags: []
 
+# 是否展示在featured页面
+# false==>显示在pub中
+# true==>显示在featured pub中
 # Display this page in the Featured widget?
-featured: true
+featured: false
 
 # Custom links (uncomment lines below)
 # links:
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: ''
-url_code: ''
-url_dataset: ''
+url_pdf: '#'
+url_code: '#'
+url_dataset: '#'
 url_poster: ''
 url_project: ''
-url_slides: ''
+url_slides: '#'
 url_source: ''
 url_video: ''
 
